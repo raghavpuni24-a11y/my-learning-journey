@@ -1,0 +1,85 @@
+ div{
+    height: 100px;
+    width: 100px;  /* but here the boxes will not g0 out 0f the container's boundary limits */
+    border: 2px solid black;
+    display: inline-block; /*  allow you to set width, height, margin, and padding */
+}
+#container{
+    height:400px ;
+    width: 500px;
+   display: flex;  /*  It allows to use the flexbox properties */
+  flex-direction: row;      /*main axis is row,   default- from left to right */
+  flex-direction: row-reverse;/*  main axis is row, but now from right to left ,also the arrangement of the boxes will be reversed */
+  justify-content: space-around; /*  justify-content controls the alignment and distribution of space among items along the main axis of the flex container. */
+                                 /* space-around distributes space around the items — meaning:
+                                ->Equal space on the left and right of each item.
+                                 ->But since the first and last items don’t have neighbors on one side, they get half that space on the outer sides.*/
+  flex-wrap: wrap; /*  This tells the flex container to allow items to wrap onto multiple lines if there isn’t enough space in one row. */
+  align-items: center; /* controls the alignment of items along the cross axis of the flex container. */
+   /*will align the items( not your whole content ) acc to your desire,  */
+
+}
+#container1{
+    height:600px ;
+    width: 500px;
+   display: flex;  /*  It allows to use the felxbox properties */
+  flex-direction: row;      /*main axis is row,   default- from left to right */
+ justify-content:center;     /*this will just place your whole stuff on the center without changing its arrangemnt , it is useful to control your space in row axis */
+ flex-wrap: wrap;
+ align-content: center; /* will align your whole content as per your desire, here at center */
+}
+#container2{
+    height:200px ;
+    width: 800px;
+   display: flex;  /*  It allows to use the felxbox properties */
+  flex-direction:column;      /*main axis is clmn,   default- from top to bottom */
+  flex-direction: column-reverse;  /*main axis is clmn, but now from top to bottom */
+  /* feature- to adjust all the boxes in 800px hght, flxbx automatically adjusted the dimensions of the boxes */
+}
+#container3{
+    height:200px ;
+    width: 700px;
+   display: flex;  /*  It allows to use the felxbox properties */
+  flex-direction:row;      /*main axis is clmn,   default- from top to bottom */
+
+   
+}
+#A{
+    background-color: red;
+  /* height: 100px;
+    width: 100px; */
+}
+#B{
+    background-color: pink;
+      height: 200px;
+    width: 200px;
+}
+#C{
+    background-color: blue;
+      /* height: 100px;
+    width: 100px;*/
+} 
+#D{
+    background-color: gold;
+     /* height: 100px;
+    width: 100px; */
+}
+#E{
+    background-color: green;
+     /* height: 100px;
+    width: 100px; */
+     align-self:center;/* in the align prop, this self prop have the highest priority  */
+}   
+#G{
+    background-color: pink;
+     height: 100px;
+    width: 100px;
+    flex-shrink: 3;     /*Automatically, if we want to shrink the size of G just double the rate of with which each bx is shrinking, this works when the space given is unsufficient for the boxes */  
+}   
+#I{
+    background-color: pink;
+     height: 100px;
+    width: 100px;
+    flex-grow: 1;     /* if we want to increase the size of H just double the rate of with which each bx is increasing shrinking, ths works when the given space is more than sufficient for the boxes to fill up the space  */  
+}   
+ 

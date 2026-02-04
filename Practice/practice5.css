@@ -1,0 +1,29 @@
+/* Q1 */
+ul{
+    background-color: rgb(51, 101, 122);
+     display:flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style-type: none;
+    background-color: aqua;
+}
+/* Q2 */
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: blue;
+    display: flex;
+    justify-content:center;  /* for your row-axis arrangement  */
+    align-items: center; /*  for your cross axis(coloumn) arrangement  */
+}
+.inner{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(146, 163, 179);
+   
+}

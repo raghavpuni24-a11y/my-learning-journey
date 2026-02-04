@@ -1,0 +1,124 @@
+/* Universal selector */
+*{
+    color:pink;
+}
+
+h1{
+     color:rgb(43, 43, 226);
+                      
+    }
+button{
+    color:rgb(30, 162, 210); 
+    background-color:black;
+}
+body{
+   background-color:#d8e0cd;
+}
+
+ #head1{                         /* for id */
+   color:green;
+    text-decoration:overline;         /*text overline */
+}
+#head2{                         /* for id */
+   color:coral;
+    text-decoration:line-through;        /*  text linethrough format */
+}
+#head3{                         /* for id */
+   color:coral;
+    text-decoration:green dotted underline;        
+}
+#head4{                         /* for id */
+   color:coral;
+    text-decoration:blue dashed underline;    
+}
+#p1{                           /*for paragraph*/
+    color:black;
+    font-family:arial;
+}
+
+p{                            /* for aligning text in right or center*/
+    text-align:center;                            
+}
+#p2{                           /*for paragraph*/
+    color:black;
+     font-family:Verdana,Tahoma;             /*prioritizing font styles over one another by commas */
+}
+
+ .C{                           /* for class C */
+    color:darkorange;
+}  
+
+h1{
+    text-align:center;
+   text-decoration:red wavy underline;           /*    text underlining */
+}
+a{
+    text-decoration:none;  /* by default link is always underlined */
+
+}
+
+/* for font weight */
+#head5{                         /* for id */
+   color:coral;
+    text-decoration:blue dashed underline;    
+    font-weight:normal;
+}
+#head6{                         /* for id */
+   color:coral;
+    text-decoration:blue dashed underline;   
+     font-weight:bold; 
+}
+#head7{                         /* for id */
+   color:coral;
+    text-decoration:blue dashed underline; 
+     font-weight:bolder;   
+}
+#head8{                         /* for id */
+   color:coral;
+    text-decoration:blue dashed underline;
+     font-weight:lighter;    
+}
+#head9{                         /* for id */
+   color:coral;
+    text-decoration:blue dashed underline;    
+   font-weight:200;                 /*  font weight: 100-900 */
+}
+#head10{                         /* for id */
+   color:coral;
+    text-decoration:blue dashed underline;   
+     font-weight:400; 
+}
+#head11{                         /* for id */
+   color:coral;
+    text-decoration:blue dashed underline; 
+     font-weight:680;   
+}
+#head12{                         /* for id */
+   color:coral;
+    text-decoration:blue dashed underline; 
+     font-weight:900;   
+    }
+
+/* for font size */
+#p3{                           /*for paragraph*/
+    color:black;
+    font-family:arial;
+    font-size:20px;
+    line-height:20px;
+    text-transform:capitalize;   
+}
+#p4{                           /*for paragraph*/
+    color:black;
+    font-family:arial;
+    font-size:30px;
+    line-height:20px;
+     text-transform:uppercase; 
+}
+#p5{                           /*for paragraph*/
+    color:black;
+    font-family:arial;
+    font-size:40px;
+    line-height:20px;
+}
+ 
+

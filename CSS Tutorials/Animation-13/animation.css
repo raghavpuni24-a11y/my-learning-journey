@@ -1,0 +1,51 @@
+.A{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    background-color: chartreuse;
+    border: 2px solid black ;
+    top: 100px;
+    left: 100px;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: colorAnimate 3s ease-in-out 1s 5 normal ;
+}
+  @keyframes colorAnimate{
+    from{background-color: chartreuse;}
+    to{background-color: brown;}
+}
+.B{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(92, 126, 174);
+    border: 2px solid black ;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: position 3s 1s 5 normal ;
+}
+@keyframes position{
+    from{left:100px;
+    background-color:rgb(92, 126, 174) ;}
+    to{left: 300px;
+    background-color: blue;}
+}
+ .C{        /* % in Animation  */
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    border: 2px solid black ;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: Animpercent 3s 1s 5 normal ;
+}
+@keyframes Animpercent{
+    0%{left:100px;}
+    50%{left:600px;
+    background-color: black;}
+    100%{left:500px;
+    background-color: brown;}
+}
+

@@ -1,0 +1,48 @@
+div{
+    display: flex;
+    display: inline-block;
+}
+.A{
+    height:400px;
+    width: 400px;
+    background-color: chartreuse;
+    border: 2px solid black;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.5s;
+    
+}
+.A:hover{
+    background-color: blue;
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.A:active{ 
+    /* hold the click button */
+    background-color: cadetblue;
+    color: black;
+    font-family: cursive;
+    font-size: larger;
+}
+.B{ 
+    height:400px;
+    width: 400px;
+    background-color: green;
+    border: 2px solid black;
+    /* Transition Shorthand->       transition:propertyname|duration|timing-function|delay   */
+    transition: all 2s ease-in-out 0.5s;
+}
+.B:hover{
+    background-color: rgb(107, 40, 113);
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.B:active{ 
+    /* hold the click button */
+    background-color: rgb(198, 68, 68);
+    color: black;
+    font-family: cursive;
+    font-size: larger;
+}
+

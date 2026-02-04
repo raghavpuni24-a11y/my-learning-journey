@@ -1,0 +1,20 @@
+#A{
+    background-color: blue;
+    display: inline;  /* by inline display we cant able to set top and bttm margins , takes only the space required by the elment  */ 
+  /* default display property is block- takes the full size oe width */
+  }
+button{
+    background-color: bisque;
+}
+div{
+    height: 100px;
+    width: 100px;
+    padding: 25px;
+    margin: 25px;
+    margin-top: 85px;
+   display: inline-block;/* by doing this, ' inline-block'  we wll be able to customize its boxmodel along with inline prperties  */
+  /* dislay none will completely erase out your element , leaving no  reserved space  for tht element  */
+  }
+  #B2{
+    visibility: hidden;   /*  hidden visiblity will erase out your element bt will leave the exact reserved space or it as it was consuming */
+  }
