@@ -1,0 +1,48 @@
+#A{
+     /* FOR CONTENT AREA -BLUE BOX */
+     height:100px;
+     width: 500px;
+     background-color: pink;
+      /* border */
+     border-width: 4px;
+     border-style:dashed;
+     border-color: blue;
+     text-align: left;      /*  this will align the text to the centre of the BOX*/
+     padding-left: 30px;   /* for padding, adjusting cntent AREA from boundary,highlighted by green in inspect  */
+     padding-bottom: 30px;     /* padding inc/dec your content area/background OR it will place your CA 30 px below the top/beginning margin  */
+     padding-right: 30px;
+     padding-top: 30px;  /* padding lbrt will add 30 px more background to your content area/background  */
+     margin-top: 50px;      /* MARGIN-area between two boxes and margin from boundary of screen, orange color*/
+     margin-right: 50px;
+     margin-left: 50px;
+     margin-bottom: 50px;
+} 
+#B{
+     height:100px;
+     width: 100px;
+     background-color: pink;
+      /* border */
+     border-width: 4px;
+     border-style:dashed;
+     border-color: blue;
+     text-align: center;      /*  this will align the text to the centre of the BOX*/
+      border-radius: 50%;                   /*      to round the border's edges,*/
+    /*  Whenver the bx is square, then by adjusting its brder radius to 50percent will make it  crcle */
+    /* shorthand for padding - top,right,bottom,left->CLOCKWISE */
+    padding: 30px 40px 30px 40px ;
+    margin: 50px 50px 50px 50px ;                                   /* Margin shorthand - top,right,bottom,left->CLOCKWISE */
+} 
+
+h1{
+    height:100px;
+     width: 500px;
+     background-color: aquamarine;
+          
+     /* border-width: 4px;
+     border-style:dashed;
+     border-color: blue; */
+     /* nstead of this,  border shorthand- width style color */
+     border:5px solid red;
+     text-align: center;      
+      border-radius: 20px;      /*      to round the border's edges,*/  
+}

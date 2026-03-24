@@ -1,0 +1,33 @@
+.A{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+/* width =600px will change the color of your div to aqua when the width hits 600 px */
+@media(width :600px){  /* used when creating a responsive website */
+    .A{
+        background-color: aqua;
+
+    }
+}
+@media(min-width:600px){  /* used when creating a responsive website */
+    .A{
+        background-color: blue;
+    }
+}
+@media(max-width:600px){  /* used when creating a responsive website */
+    .A{
+        background-color:purple;
+    }
+}
+.B{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+}
+/* Setting range at once */
+@media(min-width:400px) and (max-width: 600px){
+    .B{
+        background-color: black;
+    } 
+}

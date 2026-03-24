@@ -1,0 +1,60 @@
+div{
+    height: 100vh;
+    width: 100%;
+    display: flex; 
+    gap: 150px; 
+    justify-content: center; 
+     align-items: center;
+}
+.A{
+    height: 100px;
+    width: 100px;
+    background-color: darkmagenta;
+    /* transform: scale(1.5);  scaling for 2d, default x and y axis */
+     transition: all 1s ease-in 0.5s;
+     
+}
+ .B{
+    height: 100px;
+    width: 100px;
+    background-color:darkorange;
+    transform: scale(1.5);
+   transition: all 1s ease-in 0.5s;
+}
+.C{
+    height: 100px;
+    width: 100px;
+    background-color:green;
+    transform: scale(1.5); /* scaling for 2d, default x and y axis */
+    transition: all 1s ease-in 0.5s;
+}
+.D{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    transform: scale(2.5); /* scaling for 2d, default x and y axis */
+    transition: all 0.5s ease-in ;
+}
+.A:hover{
+    background-color: aqua;
+    transform: scale(2.5);
+    /* transform: rotate(90deg); */
+    transform: translate(200px);    /* Allow you to move objects on screen, deafult dir is x axis */
+    
+
+}
+.B:hover{
+    background-color: rgb(49, 1, 14);
+    transform: scale(2);
+    transform: rotate(180deg);
+}
+.C:hover{
+    background-color: rgb(123, 122, 114);
+    transform: scale(2);
+    transform: skew(40deg); 
+    /* just stretch your whole content ,for ex , your div box from top and bottom */
+}
+.D:hover{
+    background-color: rgb(53, 47, 105);
+    transform: scale(2);
+}
