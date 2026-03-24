@@ -1,0 +1,43 @@
+div{
+    height: 100px;
+    width: 100px;
+    /* background-color: cadetblue; */
+    border: 2px solid black;
+    display: inline-block;
+}
+/* position:static will remain our stationary at a place  */
+#A{
+    background-color: red;
+    position: static; /* position:static will remain object stationary at a place, default property- embedded prioperties will have no effect on the object */
+    top:20px;
+    left: 60px;
+    z-index: 1; /* priority definer for overlapping of A on C */
+   
+}
+#B{
+    background-color: pink;
+     position: fixed;   /*now box3 will always change its position relative to the browser pge ,  does not respond  even to scrolling down,this is how navbars are added  */
+     top: 90px;
+     right: 80px;
+}
+#C{
+     position: relative; /* relative to its original position- the embedded properties will work*/
+    top:20px;
+    right: 20px;
+    background-color: blue;
+    
+}
+#D{
+    background-color: gold;
+    position: sticky; /* same as fixed bt will depend on the scrolling and its position on the page, will work after reaching to its postion */
+    top:140px;
+    right: 20px;
+}
+#E{
+    background-color: green;
+     position: absolute;     /* now box2 will change its position in reltive to its closest ancestor[here body tag; can be the browser page in case of body tag] */
+    top:20px;
+    right: 270px;
+}   
+/* For overlapping elements, first come least priority
+Z-INDEX- to set proirity of every element  */

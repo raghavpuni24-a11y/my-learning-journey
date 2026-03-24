@@ -1,0 +1,33 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#A{
+    background-color: red;
+  height: 1000px;
+    width: 1000px;
+    font-size: 100px;
+    color: beige ;
+   background-image:url(space.jpg) ;
+  background-size: cover;      /*  COVER to span entire area, leavng no empty space */
+    
+}
+#B{
+    background-color: pink;
+      height: 1000px;
+    width: 1000px;
+   background-image:url(space.jpg) ;
+   background-size: contain; /* CONTAIN to make sure that entire image is applied, no matter how much space has left  */
+    background-repeat: no-repeat;/*  your background-color will be displayed in the empty area instead oof repeating that image */
+}
+#C{
+   
+    background-color: blue;
+      height: 300px;
+    width: 300px;
+   background-image:url(space.jpg) ;
+  background-size: auto;    /*default function setting or image */
+}

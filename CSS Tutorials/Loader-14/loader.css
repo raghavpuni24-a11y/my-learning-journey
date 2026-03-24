@@ -1,0 +1,17 @@
+div{
+    height: 300px;
+    width: 300px;
+    top: 200px;
+    left: 600px;
+    position: relative;
+    border-radius: 50%;
+    border: 20px solid rgb(126, 126, 162);
+    border-top: 20px solid black;       /* border will appear only on the top edge */
+    animation: Loader 3s ease-in-out 0s infinite normal ;
+}
+@keyframes Loader{
+    from{transform: rotate(0deg);
+    border-top-color: black ;}
+    50%{border-top-color: rgb(231, 68, 3);}
+    to{transform: rotate(720deg);}
+}

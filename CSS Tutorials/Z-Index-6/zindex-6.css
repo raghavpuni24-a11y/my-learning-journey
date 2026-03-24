@@ -1,0 +1,52 @@
+div{
+    height: 100px;
+    width: 100px;
+    /* background-color: cadetblue; */
+    border: 2px solid black;
+    display: inline-block;
+}
+/* position:static will remain our stationary at a place  */
+/* Z-INDEX- to set proirity of every element, default value is 0    */
+#A{
+    background-color: red;
+    /* position: static; position:static will remain our stationary at a place  */
+   position: relative; /*relative to its original position */
+    top:20px;
+    left: 50px;
+    z-index: 1;
+    /* right: 20px; */
+}
+#C{
+    position: relative; /*relative to its original position */
+    top:20px;
+    left: -20px;
+    /* right: 20px; */
+    background-color: blue;
+    
+}
+#E{
+    background-color: green;
+   position: relative; /*relative to its original position */
+     /* position: absolute;     now box2 will change its position in reltive to its closest ancestor[here body tag; can be the browser page in case of body tag] */
+    top:20px;
+    left: -60px;
+    /* right: 20px; */
+}   
+#B{
+    background-color: pink;
+    position: relative; /*relative to its original position */
+     /* position: fixed;   now box3 will always change its position relative to the browser pge ,  does not respond  even to scrolling down,this is how navbars are added  */
+     top: 30px;
+     /* left: 50px; */
+     /* right: 20px; */
+}
+
+#D{
+    background-color: gold;
+     position: relative; /*relative to its original position */
+    /* position: sticky; same as fixed bt will depend on the scrolling and its position the page  */
+    top:30px;
+    left: -40px;
+    /* right: 20px; */
+}
+/* For overlapping elements, first come least priority

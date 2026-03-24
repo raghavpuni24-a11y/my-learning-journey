@@ -1,0 +1,36 @@
+#D1{
+    background-color: black;
+    height: 500px;
+    width: 800px;
+    margin-left: 50px;
+    color: azure;
+    font-size:20px ;
+    /* display: inline-block; */
+
+}
+#D2{
+      display: inline-block; /*  If not done this property here too in additon with d3, d3 will display just below the d2 box */
+    background-color: pink;
+    height: 100px;
+     width: 40%;  /*Relative width by % */
+    margin-left: 10%;
+    color:brown;
+    font-size:2em;  /* 'em' a rel unit;  1em=100%, always inherits its PARENT'S characteristics ,here =20x2=40px */
+    width: 5em;     /* width RELATIVE TO n size, like here, 5 times fnt size of parent div=200px=40*5; latest updated size */
+   /* rem-- relative to the font size of the root element, sort of font size declared globally, here 16px   */
+    
+}
+#D3{
+    display: inline-block;
+    background-color: rgb(52, 192, 57);
+    height: 100px;
+    margin-left: 10%;
+    color:rgb(17, 15, 114);
+    font-size:2em;  /* 'em' a rel unit;  1em=100%, always inherits its PARENT'S characteristics  */
+    /* width RELATIVE TO n size, like here, 5 times fnt size of parent div=100px=20*5 */
+   /* rem-- relative to the font size of the root element, sort of font size declared globally, here 16px   */
+      width: 5rem; /*In inspection width is showing 80px=16x5; here 16 is the default font size for hello in the body tag */
+     /* vh-relative to 1%viewport height */
+     /* vw-relative to 1%viewport width */
+
+} 
