@@ -6,9 +6,12 @@ class Student{
 public class finalKeyword {
     public static void main(String[] args) {
              final int num=10;
-//             num =12; this is unabled b/c can't reassign or redeclare if final keyword is used
+//             num =12; this is restricted b/c can't reassign or redeclare if final keyword is used
         System.out.println(Student.COLLEGE);
         System.out.println(Student.ID);
+//        Student.COLLEGE="TIT";  this not restricted
+
+        
     }
 
 }
