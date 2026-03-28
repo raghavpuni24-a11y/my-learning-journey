@@ -1,7 +1,7 @@
 package Methods;
 
 public class methods_static {
-    int m=8; // can't be used directly in a static method, unless referenced by an object , ex in 3rd method
+    int m=8; // can't be used directly in a static method, unless referenced by an object , ex in 3rd method show
     static String str="A static variable";     // can be used in a static method
     // Making global static methods for sum function
     static int sum(int x,int y){      // static keyword is used to call that method even without creating the object of that class, directly by passing the values
