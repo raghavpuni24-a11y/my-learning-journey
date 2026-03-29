@@ -23,6 +23,6 @@ public class StaticInnerClass {
         // College1 class b/c it is static, unlike regular inner class
         addr.display();
         College1 c1=new College1();
-        c1.display();
+//        c1.display();   not possible b/c College1 is just a container to store class Address , not its parent
     }
 }
