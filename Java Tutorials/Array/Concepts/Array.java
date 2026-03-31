@@ -28,7 +28,8 @@ public class Array {
         String[] name=new String[6];
         System.out.println(name[3]);  // null
 
-
+        System.out.println();
+        
 
 
     }
