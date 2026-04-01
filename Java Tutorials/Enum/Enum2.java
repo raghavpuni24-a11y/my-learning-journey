@@ -14,7 +14,17 @@ enum Branch{
         this.seats=seats;
     }
     //method
-//    void
+    void   display(){
+        System.out.println(name +" | Seats: "+seats);
+    }
 }
 public class Enum2 {
+    public static void main(String[] args) {
+        Branch Raghu =Branch.AI;
+        Raghu.display();
+        // all branches
+        for (Branch b: Branch.values()){
+            b.display();
+        }
+    }
 }
