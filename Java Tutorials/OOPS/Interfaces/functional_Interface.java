@@ -45,13 +45,11 @@ public class functional_Interface {
         obj5.name("Raghav");
     // Multiple parameters
         D obj6= (a,b)-> System.out.println(a+b);
-        // Shorthand for multiple parameters
-        D obj7 = (a,b)->  a+b ;
-    // full form- multi-line
-        E obj8= (a,b) -> {
-            int result= a+b;
-            return result;
-        } ;
+        obj6.sum(4,6);
+    // Return Scenario
+        E obj8= (a,b) ->   a+b;  // for some return statements, can't write return in the lambda,but it's still
+        // returning the value a+b
+        System.out.println(obj8.sum(34,5));
         
     }
 }
