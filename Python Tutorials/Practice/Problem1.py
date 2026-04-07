@@ -1,3 +1,4 @@
+# printing multiple string lines
 print("""We hereby conduct this post-mortem
 He was a hothouse flower to my outdoorsman
 Our maladies were such we could not cure them
