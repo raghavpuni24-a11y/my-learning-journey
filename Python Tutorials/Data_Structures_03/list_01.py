@@ -36,3 +36,6 @@ l5.remove(89)#remove is only by the value
 print(l5)
 c=[1,4,6,23,90,3,5]
 print(min(c),max(c))
+l=[1,2,3,4,5]
+print(sum(l))
+
