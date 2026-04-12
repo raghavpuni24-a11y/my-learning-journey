@@ -5,6 +5,9 @@ student={
     "City":"Bhopal",
     "Session":2028,
 }
+
+print(len(student))
+
 # .get() - safer than student[key] as if the key doesn't present in the dict, then it will just print None instead of getting crashed and giving key Error
 print(student.get("Session"))
 

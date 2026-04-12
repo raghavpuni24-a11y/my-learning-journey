@@ -1,3 +1,4 @@
+name={} # empty dictionary
 marks ={    
     "Rollno": [1,2,3,4],   #   key : value
     "Hiroshi": 50,   #  Hiroshi contains the value 50, so 50 can only be accessed by specifying Hiroshi, vive-versa is not possible and will give Key-Error - check line 16 and 17
