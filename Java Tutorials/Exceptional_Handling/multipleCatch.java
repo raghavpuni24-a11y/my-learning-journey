@@ -5,11 +5,12 @@ public class multipleCatch {
         int[] arr={10,20,30,40};
          try{
              int r=10/0;                 //     ArithmeticException
-//              int x = arr[5];                //  → ArrayIndexOutOfBoundsException
-//              String s = null; s.length();    //→ NullPointerException
+        //      int x = arr[5];                //  → ArrayIndexOutOfBoundsException
+         //     String s = null; s.length();    //→ NullPointerException
          }
-         // The first type of exception will only be taken out by the catch block, others will be ignored and the
-         // compiler jumps to the code written after every catch block- one catch block will be executed in 1 run
+         // The first exception will only be taken out by the catch block, others will be ignored and the
+         // compiler will jump to the code written right after every catch block- one catch block will be executed in 1
+         // run
          catch (ArithmeticException e){
              System.out.println("Arithmetic error: "+e.getMessage());
          }
@@ -22,7 +23,10 @@ public class multipleCatch {
          catch (Exception e){ // Exception class is the parent of all the exceptional classes
              System.out.println("Some other error: "+ e);
          }
-        System.out.println("Pgm continues normally");
+         finally{
+             System.out.println("The finally pgm");
+         }
+        System.out.println("Pgm continues normally- after execution of an exception ");
         System.out.println(10+20);
     }
 }
