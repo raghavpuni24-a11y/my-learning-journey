@@ -11,7 +11,8 @@ for x in m :
 print(45 in m) # Membership check
 
 # real world analogy
-# for prevemtimg duplications
+# for preventing duplications
 nums=[1,2,3,4,4,5,5,7,7]
 e=set(nums)
+print(nums) # 
 print(e)

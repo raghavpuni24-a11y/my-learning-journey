@@ -4,7 +4,7 @@ name=     "Raghuvendra"
 print( name[0:5])# print characters from index 0 to index 4(index 5 is excluded) 
 print( name[4]) # print the 4th character
 # Negative slicing
-print( name[-7:-2]) # not name[-2:-7] b/c it can't print string in reverse order
+print( name[-7:-2]) # not name[-2:-7] b/c it can't print string in reverse order,i.e., it can only be printed from the foremost index -7 to the leading index -2 in normal order ut the inverse will be to print in it reverse which is restricted 
 
 # Other properties--- 1
 print( name[:]) # means index 0 to length

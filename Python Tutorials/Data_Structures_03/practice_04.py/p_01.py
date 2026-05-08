@@ -1,5 +1,5 @@
 # 1st
-fruits=[]
+fruits=[] # list
 print("Enter 7 fruits:")
 for i in range(7):
     f= input(f"Fruit {i+1}:")   # always a string value

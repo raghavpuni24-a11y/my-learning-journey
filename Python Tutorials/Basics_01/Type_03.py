@@ -8,11 +8,13 @@ g=type(b)
 h=type(c)
 i=type(d)
 j=type(e)
-print("first method: ")
+print("first method: ")   
 print(type(a), type(b), type(c), type(d), type(e))
-print(f,g,h,i,j)# or likr this
+print(f,g,h,i,j)# or like this
 #Other easy way
 print("second method: ")
+a=12
+print(f"the value of a^2 is:{a*12}")  # format specifier
 print(f"{type(a)} {type(b)} {type(c)} {type(d)} {type(e)}") 
 
 print("third method: ")
