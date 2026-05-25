@@ -9,7 +9,6 @@ for x in m :
   print(x)  # to print on element in one line
   
 print(45 in m) # Membership check
-
 # real world analogy
 # for preventing duplications
 nums=[1,2,3,4,4,5,5,7,7]
