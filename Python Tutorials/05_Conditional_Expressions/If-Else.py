@@ -16,3 +16,4 @@ else:
     print("Else condn")
 if(num >1 or num>0):
     print(f"{num} is a whole number")
+
