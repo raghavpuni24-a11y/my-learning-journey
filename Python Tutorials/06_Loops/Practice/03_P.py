@@ -1,3 +1,4 @@
+#PRIME NUMBER
 n=int(input("Enter a number: "))
 ans=True
 for i in range(2,int(n/2)):

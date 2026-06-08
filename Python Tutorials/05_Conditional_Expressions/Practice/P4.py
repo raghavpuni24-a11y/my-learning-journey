@@ -1,4 +1,4 @@
-list=["Harry","Rashi","Raghav","Prince","Vanshika"]
+list=["Akshu","Rashi","Raghav","Prince","Vanshika"]
 username=input("Enter your username: ")
 if(username in list):
     print("Already in the list!")

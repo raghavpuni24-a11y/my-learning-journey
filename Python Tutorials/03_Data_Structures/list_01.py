@@ -4,7 +4,7 @@ print(name[0]) #R
 #  name[0]="S" --- TypeError: 'str' object does not support item assignment
 
 # --> List in python- lists are mutable
-friends=["apple","orange", 5 , 5.676, True]# can store any type of data 
+friends=["apple","orange", 5 , 5.676, True] # can store any type of data 
 print(friends[1]) 
 # , is not mandatory to define a list having only one element-> [n] is also a list but (n) is not tuple, it is considered as an int data type
 n=[] #empty list
