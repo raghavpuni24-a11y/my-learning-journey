@@ -1,5 +1,6 @@
 {
     "a-file-icon-vscode.arrowTheme": "material",
     "a-file-icon-vscode.folderColor": "#727272",
-    "a-file-icon-vscode.folderTheme": "none"
+    "a-file-icon-vscode.folderTheme": "none",
+    "python-envs.defaultEnvManager": "ms-python.python:system"
 }
