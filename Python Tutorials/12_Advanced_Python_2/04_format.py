@@ -1,0 +1,6 @@
+a = "{} is a good {}".format("Raghav","boy")
+b = "{0} is a good {1}".format("Prince","boy")
+c = "{1} is a good {0}".format("Akshu","boy")
+print(a)
+print(b)
+print(c)
