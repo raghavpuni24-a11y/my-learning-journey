@@ -16,6 +16,6 @@ public class reverse_An_Array_04 {
     public static void main(String[] args) {
         int[] arr={12,45,90,46,34,80,67};
         reverse(arr);
-        System.out.println(Arrays.toString(arr)); //  Since array is passed  by reference
+        System.out.println(Arrays.toString(arr)); //  Since array is passed by reference
     }
 }
