@@ -1,3 +1,5 @@
+package Concepts;
+
 public class largest_Smallest_02 {
     public static int getLargestAndSmallestNumber(int[] arr){
         int max=Integer.MIN_VALUE;

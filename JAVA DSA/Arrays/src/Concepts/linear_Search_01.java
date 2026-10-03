@@ -1,3 +1,5 @@
+package Concepts;
+
 public class linear_Search_01 {
     public static int linearSearch(int[] num, int key){
         for (int i = 0; i < num.length; i++) {

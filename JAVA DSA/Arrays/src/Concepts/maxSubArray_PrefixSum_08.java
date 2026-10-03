@@ -1,3 +1,5 @@
+package Concepts;
+
 // MAXSUM AND MINSUM FOR CONTINUOUS SUBARRAY
 public class maxSubArray_PrefixSum_08 {                // USING PREFIX SUM ARRAY -- TC - O(n2)
     public static void sumSubArrays(int[] arr){

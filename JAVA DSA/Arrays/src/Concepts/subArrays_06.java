@@ -1,3 +1,5 @@
+package Concepts;
+
 public class subArrays_06 {  // SUBARRAY - CONTINUOUS SECTION OF AN ARRAY
     public static void printSubArrays(int[] arr){   // total subarrays : n(n+1)/2
         int totalSubArrays = 0;

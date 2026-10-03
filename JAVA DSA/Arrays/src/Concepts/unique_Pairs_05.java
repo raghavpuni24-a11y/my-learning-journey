@@ -1,3 +1,4 @@
+package Concepts;
 
 public class unique_Pairs_05 {
     public static void Pairs(int[] arr){

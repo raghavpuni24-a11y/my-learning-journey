@@ -1,3 +1,5 @@
+package Concepts;
+
 // MAXSUM AND MINSUM FOR CONTINUOUS SUBARRAY
 public class maxSubArrays_Sum_07 {    // BRUTE FORCE = TC : O(n3)
     public static void sumSubArrays(int[] arr){   // total subarrays : n(n+1)/2
